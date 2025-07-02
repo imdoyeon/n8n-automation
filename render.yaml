@@ -2,6 +2,7 @@ services:
   - type: web
     name: n8n-automation
     env: node
+    nodeVersion: 18
     buildCommand: npm install
     startCommand: npm start
     envVars:
